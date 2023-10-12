@@ -75,7 +75,7 @@ export default {
     async getList(){
      const {data:res}=await this.$http.get('menus');
      if(res.meta.status!=200){
-       this.$message.error('列表数据学习获取失败！');
+       this.$message.error('列表数据获取失败！');
        return;
      }
      console.log(res);

@@ -9,7 +9,7 @@ import './assets/fonts/iconfont.css'
 //引入axios
 import axios from 'axios'
 // 配置请求的根路径
-axios.defaults.baseURL='http://1.13.159.135/api/private/v1'
+axios.defaults.baseURL='http://47.97.255.94:8889/api/private/v1'
 // axios拦截请求，携带token以访问其他接口
 axios.interceptors.request.use((config)=>{
   config.headers.Authorization=window.sessionStorage.getItem('token')
