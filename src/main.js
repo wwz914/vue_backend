@@ -2,6 +2,8 @@ import Vue from 'vue'
 import App from './App.vue'
 import './plugins/element.js'
 import router from './router'
+// 引入树状表格插件
+import ZkTable from 'vue-table-with-tree-grid'
 // 引入样式表
 import './assets/css/login.css'
 import './assets/css/global.css'
@@ -16,6 +18,7 @@ axios.interceptors.request.use((config)=>{
   return config;
 })
 Vue.prototype.$http=axios
+Vue.use(ZkTable)
 // 取消开发or生产模式提示
 Vue.config.productionTip = false
 

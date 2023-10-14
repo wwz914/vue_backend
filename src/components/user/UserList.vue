@@ -89,7 +89,7 @@
         <el-button type="primary" @click="editUsers(findUserById.id)">确 定</el-button>
       </span>
     </el-dialog>
-    <!-- 添加用户删除弹窗 -->
+    <!-- 用户删除弹窗 -->
     <el-dialog title="删除用户信息" :visible.sync="deleteUserDialogVisible" width="30%">
       <!-- 主体内容 -->
       <span>你确定要删除这个用户吗???</span>

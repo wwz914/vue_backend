@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { Button,FormItem,Form,Input,Message,Header,Container,Aside,Main,Col,Menu,Submenu,MenuItem,Icon,MenuItemGroup,Row,Breadcrumb,BreadcrumbItem,Card,Table,TableColumn,Tag,MessageBox,Dialog,Tree,Pagination,Switch,Dropdown,DropdownMenu,DropdownItem,Select,Option } from 'element-ui'
+import { Button,FormItem,Form,Input,Message,Header,Container,Aside,Main,Col,Menu,Submenu,MenuItem,Icon,MenuItemGroup,Row,Breadcrumb,BreadcrumbItem,Card,Table,TableColumn,Tag,MessageBox,Dialog,Tree,Pagination,Switch,Dropdown,DropdownMenu,DropdownItem,Select,Option,Cascader } from 'element-ui'
 
 Vue.use(Button)
 Vue.use(FormItem)
@@ -31,6 +31,7 @@ Vue.use(DropdownMenu)
 Vue.use(DropdownItem)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Cascader)
 // 添加$message全局方法
 Vue.prototype.$message=Message
 Vue.prototype.$confirm=MessageBox.confirm
