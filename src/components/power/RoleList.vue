@@ -155,11 +155,11 @@ export default {
       addRoleFormRules:{
         roleName:[
           { required: true, message: '请输入角色名', trigger: 'blur' },
-            { min: 3, max: 15, message: '长度在 3 到 15 个字符', trigger: 'blur' }
+          { min: 3, max: 15, message: '长度在 3 到 15 个字符', trigger: 'blur' }
         ],
         roleDesc:[
           { required: true, message: '请输入角色描述', trigger: 'blur' },
-            { min: 3, max: 15, message: '长度在 3 到 15 个字符', trigger: 'blur' }
+          { min: 3, max: 15, message: '长度在 3 到 15 个字符', trigger: 'blur' }
         ],
       },
       //修改角色输入规则
