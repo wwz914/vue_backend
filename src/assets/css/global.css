@@ -9,3 +9,6 @@ html,body,#app{
     display: flex;
     align-items: center;
 }
+.ql-editor{
+    min-height: 500px;
+}

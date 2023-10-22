@@ -262,8 +262,9 @@ export default {
 
         //编辑
         editParamBtn(node){
+            console.log(node);
             this.editPopDialogVisible=true
-            this.curParam=node
+            this.curParam={...node}
         },
         async editParam(){
             this.editPopDialogVisible=false
@@ -327,5 +328,8 @@ export default {
 }
 .el-table__expanded-cell{
     height: 60px;
+}
+.el-tag{
+    margin-left: 10px;
 }
 </style>

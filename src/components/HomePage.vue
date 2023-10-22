@@ -78,7 +78,7 @@ export default {
        this.$message.error('列表数据获取失败！');
        return;
      }
-     console.log(res);
+     console.log(res.data);
      this.menuArr=res.data
     },
     toggleMenu(){

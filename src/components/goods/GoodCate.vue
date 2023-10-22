@@ -222,7 +222,9 @@ export default {
     // 编辑
     // 打开编辑弹窗
     editCateBtn(node){
-      this.editCateInfo=node
+      console.log(node);
+      // 采用深拷贝方式，否则原有数据会丢失，别问我是怎么知道的
+      this.editCateInfo={...node}
       this.editCateDialogVisible=true
     },
     // 编辑信息，关闭弹窗
