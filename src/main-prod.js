@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-// import './plugins/element.js'
+import './plugins/element.js'
 import router from './router'
 // 引入树状表格插件
 import ZkTable from 'vue-table-with-tree-grid'
@@ -12,6 +12,7 @@ import './assets/fonts/iconfont.css'
 import VueQuillEditor from 'vue-quill-editor'
 // 导入nprogress的js和css
 import  NProgress  from 'nprogress'
+import 'nprogress/nprogress.css'
 //引入axios
 import axios from 'axios'
 // 配置请求的根路径

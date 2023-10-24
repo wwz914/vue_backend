@@ -17,12 +17,12 @@ module.exports = {
 
       // 通过cdn加载外部资源
       config.set('externals',{
-        vue:'Vue',
-        'vue-router':'VueRouter',
-        axios:'axios',
-        lodash:'lodash',
+        // vue:'Vue',
+        // 'vue-router':'VueRouter',
+        // axios:'axios',
+        // lodash:'lodash',
         echarts:'echarts',
-        nprogress:'Nprogress',
+        // nprogress:'Nprogress',
         'vue-quill-editor':'VueQuillEditor'
       })
     })
